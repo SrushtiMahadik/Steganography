@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(hompage.png);
+    background-size: cover;
+    background-position: center;
+
+}
+.navbar{
+    
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+
+    width: 120px;
+    cursor: pointer;
+    
+}
+.navbar ul li{
+
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li ::after{
+
+    content: '';
+    height: 3px;
+    width: 0;
+    background:#fff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li :hover::after{
+
+    width: 100%;
+}
+.cont{
+
+margin-left: 350px;
+
+}
+.img-cont {
+   
+    margin-top: 5rem;
+    display: flex;
+
+}
+
+.img1 {
+    margin-right: 18rem;
+    
+    margin-bottom: 10rem;
+}
+
+img {
+    width: 300px;
+}
+
+
+.opa {
+    opacity: 0;
+    width: 10px;
+}
+.img-cont
+{
+    color: white;
+}
+.abc
+{
+    color: white;
+    width: 100%;
+    height: 100vh;
+    margin-left: 500px;
+    background-position: center;
+    padding: 15px 25px;
+    
+   
+}
+.abc h5{
+
+    color: white; 
+}
